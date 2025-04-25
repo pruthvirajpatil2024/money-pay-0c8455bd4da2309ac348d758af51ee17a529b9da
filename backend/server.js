@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 // For accessing ENV variables.
 require('dotenv').config();
+// hi 
 
 // ENV variables
 const PORT =  process.env.PORT || 5001;
@@ -10,7 +11,7 @@ const MONGODB_URI = process.env.MONGODB_URI;
 // All routes.
 
 const rootRouter = require("./routes/index");
-
+const a = 50;
 
 const app = express();
 app.use(express.json());
