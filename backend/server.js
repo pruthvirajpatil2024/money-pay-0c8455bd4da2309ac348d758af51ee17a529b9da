@@ -12,6 +12,7 @@ const MONGODB_URI = process.env.MONGODB_URI;
 
 const rootRouter = require("./routes/index");
 const a = 50;
+const b = 90;
 
 const app = express();
 app.use(express.json());
